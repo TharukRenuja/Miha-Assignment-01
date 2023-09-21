@@ -143,9 +143,31 @@ input[type="submit"] {
     font-size: 15px;
 }
 
+@media (min-width: 320px) and (max-width: 375px) {
+    .branding {
+        display: none;
+    }
+
+    .box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 400px;
+        background-color: white;
+        border-radius: none;
+        box-shadow: none;
+    }
+
+    .footer {
+        display: none;
+    }
+}
+
 @media (max-width: 768px) {
     .branding {
         padding-left: 8px;
+        margin-top: 40px;
     }
 
     .box {

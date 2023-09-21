@@ -119,18 +119,25 @@ body {
         background: none;
     }
 
-    
-    .title h1{
+    .title {
+        margin-top: 10vh;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .title h1 {
         color: black;
-        padding-top: 240px;
+        font-size: 16px;
     }
 
     .title p{
         color: black;
+        font-size: 12px;
     }
 
     .content {
-        padding-top: 80px;
+        padding-top: 240px;
     }
 
     .card p {
@@ -148,17 +155,25 @@ body {
         background: none;
     }
 
-    .title h1{
+    .title {
+        margin-top: 10vh;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .title h1 {
         color: black;
-        padding-top: 240px;
+        font-size: 16px;
     }
 
     .title p{
         color: black;
+        font-size: 12px;
     }
 
     .content {
-        padding-top: 80px;
+        padding-top: 240px;
     }
 
     .card p {
@@ -187,6 +202,7 @@ body {
 
     .title h1 {
         margin-top: 48vh;
+        padding-top: 80px;
     }
 
     .title p {
@@ -211,6 +227,7 @@ body {
         text-align: center;
         flex-direction: column;
         height: 100%;
+        padding-top: 30px;
     }
 
     .card {

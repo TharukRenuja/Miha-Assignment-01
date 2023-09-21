@@ -91,6 +91,10 @@ input[type="submit"] {
 
 @media (max-width: 768px) {
 
+    .box img {
+        margin-top: 80px;
+    }
+
     .box {
         position: absolute;
         top: 40%;
@@ -106,13 +110,13 @@ input[type="submit"] {
     .inputbox {
         background-color: white;
         border: 0;
-        margin: 23px;
         width: 340px;
         border-radius: 10px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
         -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
         -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
         margin-top: 10px;
+        margin-left: 28px;
     }
 
     .footer {
@@ -126,6 +130,8 @@ input[type="submit"] {
     }
 
     .wrap {
-        height: 200px;
+        position: absolute;
+        top: 88%;
+        height: 80px;
     }
 }

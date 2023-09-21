@@ -144,6 +144,11 @@ input[type="submit"] {
 
 @media (max-width: 768px) {
 
+    .box-logo {
+        margin-top: 80px;
+        padding: 30px 100px 40px 100px;
+    }
+
     .main-box {
         position: absolute;
         top: 35%;
