@@ -113,6 +113,62 @@ body {
     font-family: "Exan";
 }
 
+@media (max-width: 320px) {
+    body {
+        overflow: scroll;
+        background: none;
+    }
+
+    
+    .title h1{
+        color: black;
+        padding-top: 240px;
+    }
+
+    .title p{
+        color: black;
+    }
+
+    .content {
+        padding-top: 80px;
+    }
+
+    .card p {
+        background-color: black;
+    }
+
+    .card button {
+        background-color: black;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+    body {
+        overflow: scroll;
+        background: none;
+    }
+
+    .title h1{
+        color: black;
+        padding-top: 240px;
+    }
+
+    .title p{
+        color: black;
+    }
+
+    .content {
+        padding-top: 80px;
+    }
+
+    .card p {
+        background-color: black;
+    }
+
+    .card button {
+        background-color: black;
+    }
+}
 
 @media (max-width: 768px) {
 
